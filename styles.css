@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+*{
+	height: 100vh;
+            margin: 0;
+            position: relative;
+}
+#box{
+	height:200px;
+	width:200px;
+	background: lightblue;
+	border: solid black 2px;
+
+	position:absolute;
+	top:50%;
+	 left: 50%;
+    transform: translate(-55%, -50%);
+	
+}
+ .text{        
+	 color: purple;
+            position: absolute;
+            top: 205%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+
